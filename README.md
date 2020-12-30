@@ -10,7 +10,7 @@ Prerequisite is to have [FunL interpreter](https://github.com/anssihalmeaho/funl
 Clone fields from Github:
 
 ```
-    git clone https://github.com/anssihalmeaho/fields.git
+git clone https://github.com/anssihalmeaho/fields.git
 ```
 
 Put **fields.fnl** to some directory which can be found under **FUNLPATH** or in working directory.
@@ -23,7 +23,7 @@ See more information: https://github.com/anssihalmeaho/funl/wiki/Importing-modul
 Returns value from map for given path of keys (dot -format string).
 
 ```
-    call(fields.getv <map> <dot-format-string>) -> <value>
+call(fields.getv <map> <dot-format-string>) -> <value>
 ```
 
 If any of keys is not found Runtime Error is generated.
@@ -35,7 +35,7 @@ Similar to **getv** but returns list (pair) of:
 2. value (if it was found, false if not found)
 
 ```
-    call(fields.getlv <map> <dot-format-string>) -> list(<bool:is-found> <value>)
+call(fields.getlv <map> <dot-format-string>) -> list(<bool:is-found> <value>)
 ```
 
 ## Example
